@@ -1,0 +1,55 @@
+.uploadBox {
+  display: flex;
+  background: #faf9fa;
+  border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.uploadBox div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.hint {
+  font-size: 16px;
+  color: #898da9;
+}
+
+.uploadBox a {
+  color: #761be4;
+}
+
+.uploadedFile {
+  display: flex;
+  align-items: center;
+}
+
+.uploadedFile .dynamicImg {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background-image: url("../../assets/remove.png");
+  cursor: pointer;
+  transition: background-image 0.2s ease;
+}
+
+.uploadedFile .dynamicImg:hover {
+  background-image: url("../../assets/removeHover.png");
+}
+
+.uploadedFile p {
+  color: #000853;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 850px) {
+  .hint {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.options {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option span {
+  font-size: 16px;
+  color: #000853;
+  margin-left: 6px;
+}
+
+.option input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  background-color: #faf9fa;
+}
+
+.option input[type="radio"]:not(:checked):hover {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #761be4;
+  background-color: #eedfff;
+  border-radius: 50%;
+}
+
+.option input[type="radio"]:checked {
+  accent-color: #761be4;
+}
