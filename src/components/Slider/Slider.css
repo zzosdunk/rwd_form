@@ -48,9 +48,9 @@
   position: absolute;
   width: 37px;
   height: 25px;
-  top: 160%;
+  top: 120%; /* Adjust this value to position the tooltip vertically */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   text-align: center;
   background: #ffffff;
   border: 1px solid #761be4;
@@ -70,5 +70,5 @@
   border-bottom: 10px solid #761be4;
   bottom: 100%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translateX(-50%);
 }

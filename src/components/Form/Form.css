@@ -76,6 +76,14 @@ span {
   border-radius: 8px;
 }
 
+.inputBox input:not(:focus):hover {
+  background: #eedfff;
+}
+
+.inputBox input:focus {
+  border: 2px solid #761be4;
+}
+
 .inputBox .inputError {
   background: #f8d3d3;
   padding: 10px;

@@ -10,6 +10,7 @@ function UploadFile({ handleFile }: UploadProps) {
 
   const handlePhotoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files && event.target.files.length > 0) {
+      setPhoto(event.target.files[0]);
       handleFile(event.target.files[0]);
     }
   };
